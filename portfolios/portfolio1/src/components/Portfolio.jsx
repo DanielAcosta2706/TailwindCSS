@@ -31,7 +31,7 @@ export const Portfolio = () => {
   };
   return (
     <main className="bg-[#f0ebe3] px-3 pb-5 pt-52 dark:bg-[#1f2937]" id="works">
-      <div className="conatiner mx-auto flex max-w-[1200px] flex-col items-center">
+      <div className="container mx-auto flex max-w-[1200px] flex-col items-center">
         <h1 className="m-0 text-center text-[26px] sm:text-[44px]">
           PORTFOLIO
         </h1>

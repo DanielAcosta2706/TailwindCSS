@@ -1,40 +1,31 @@
+.shadowbtn 
+
 Body
 - Cambiar la fuente
 
 Navbar
 - Cambiar el logo
 - Dejar fijo el navbar cuando hacemos scroll hacia abajo.
-- Hacer que funcione el modo oscuro
 - Mostrar el menu hamburguesa por delante de la imagen principal en pantallas grandes
 
 Intro
-- Poner sombra al h1 (clase = textShadow)
-- Poner sombra a los div y al span (clase = shadowbtn)
-- Hacer cambiar el hover al boton(Download) en pantallas grandes
-
-Services
-- Hacer hover a las cards (clase = hoverBtn)
+- Agregar clase (.shadowbtn )
 
 Skills
 - Hacer que funcione el componente Slider
 
 Porffolio
-- Hacer hover a las cards (clase = hoverBtn)
+- Agregar clase (.shadowbtn )
 
 Resume -> SingleItem
-- Poner sombra al span (clase = textShadow)
-
-Testimonials
-- Hacer hover a las cards (clase = hoverBtn)
+- Agregar clase (.shadowbtn )
 
 Pricing
-- Hacer hover a las cards (clase = hoverBtn)
-- Poner sombra al span y al button (clase = shadowbtn)
+- Agregar clase (.shadowbtn )
 
 Blog
-- Hacer hover a las cards (clase = hoverBtn)
-- Poner sombra al span y al button (clase = shadowbtn)
+- Agregar clase (.shadowbtn )
 
 Contact
 - Crear componente MdMap
-- Poner sombra al span y al button (clase = shadowbtn)
+- Agregar clase (.shadowbtn )

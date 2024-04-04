@@ -1,1 +1,34 @@
+.textShadow {
+  text-shadow:
+    2px 2px #000 -2px 2px #000,
+    2px -2px #000,
+    -2px -2px #000,
+    5px 5px 0px rgba(0, 0, 0, 0.2);
+}
 
+.accordion-border {
+  border-right: 2px solid black;
+}
+
+.rc-slider.track,
+.rc-slider-tracks {
+  background-color: black;
+  height: 3px;
+}
+
+.rc-slider-handle {
+  background-color: #29a587;
+  top: 0;
+  opacity: 1;
+  border: 1px solid black;
+  width: 20px;
+  height: 20px;
+}
+
+.hoverBtn {
+  transition: all 0.4s ease 0s !important;
+}
+.hoverBtn:hover {
+  transform: scale(1.05);
+  overflow: hidden !important;
+}

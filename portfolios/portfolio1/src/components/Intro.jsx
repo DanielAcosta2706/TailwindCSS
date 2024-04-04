@@ -1,5 +1,4 @@
 import { FaBehance, FaDribbble, FaTwitter } from "react-icons/fa";
-import "./Intro.css";
 
 export const Intro = () => {
   return (
@@ -12,7 +11,7 @@ export const Intro = () => {
           <p className="text-[15px] font-bold">
             HELLO <span className="text-[#29a587]">MY NAME IS</span>
           </p>
-          <h1 className="textShadow m-0 py-4 text-[64px] sm:py-0 xl:text-[80px]">
+          <h1 className="textShadow m-0 py-4 text-[64px] text-[#29a587] sm:py-0 xl:text-[80px]">
             DANIEL <span className="text-white">ACOSTA</span>
           </h1>
           <p className="text-[15px] font-bold">
@@ -31,7 +30,7 @@ export const Intro = () => {
             </div>
             <div className="flex w-fit items-center pt-4 text-[13px] font-bold">
               <span className="shadowbtn block h-14 rounded-full border border-solid border-black">
-                <button className="hober:bg-[#29a587] h-full rounded-full border-solid bg-transparent px-10 font-bold hover:border-2 hover:border-white hover:text-white dark:text-white">
+                <button className="h-full rounded-full border-solid bg-transparent px-10 font-bold hover:border-2 hover:border-white hover:bg-[#29a587] hover:text-white dark:text-white">
                   DOWNLOAD CV
                 </button>
               </span>

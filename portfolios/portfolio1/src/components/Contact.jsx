@@ -1,3 +1,5 @@
+import { BiBarcode } from "react-icons/bi";
+
 export const Contact = () => {
   const Contact_info = ({ icon, title, sub_title }) => {
     return (
@@ -8,7 +10,7 @@ export const Contact = () => {
               {icon}
             </span>
           </button>
-          <hr className="mr-6 h-[2px] w-10 bg-black" />
+          <hr className=" h-[2px] w-10 bg-black" />
         </span>
         <span>
           <p className="caveat m-0 py-[10px] text-[30px] font-bold">{title}</p>
@@ -36,21 +38,25 @@ export const Contact = () => {
               <Contact_info
                 title="Address"
                 sub_title="North Tower, Toronto, Canada"
+                icon={<BiBarcode />}
                 // icon={<MdMap />}
               />
               <Contact_info
                 title="Freelance"
                 sub_title="Available Right Now"
+                icon={<BiBarcode />}
                 // icon={<MdMap />}
               />
               <Contact_info
                 title="Email"
                 sub_title="zoe.miller@mydomain.com"
+                icon={<BiBarcode />}
                 // icon={<MdMap />}
               />
               <Contact_info
                 title="Phone"
                 sub_title="+1 900 - 800 - 7000"
+                icon={<BiBarcode />}
                 // icon={<MdMap />}
               />
             </div>
