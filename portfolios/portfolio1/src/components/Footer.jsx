@@ -10,7 +10,7 @@ export const Footer = () => {
           <FaBehance />
         </div>
         <p className="text-[13px] font-bold text-[#262626] dark:text-white">
-          c 2022 <span className="text-[#29a587]">MONNI</span>. ALL RIGHTS
+          © 2022 <span className="text-[#29a587]">MONNI</span>. ALL RIGHTS
           RESERVED
         </p>
         <p className="text-[13px] font-bold text-[#262626] dark:text-white">
